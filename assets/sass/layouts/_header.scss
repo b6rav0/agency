@@ -1,0 +1,40 @@
+header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    padding: 1% 10%;
+    color: white;
+    background: $dark-blue;
+    overflow: hidden;
+    // box-shadow: 0 0 5px 0 black;
+
+    a {
+        h1 {
+            float: left;
+            font-size: 2em;
+            font-weight: 700;
+        }
+    }
+
+    nav {
+        float: right;
+        width: 40%;
+        padding-top: 1%;
+        text-align: center;
+
+        a {
+            padding: 0 2.5%;
+            font-weight: 400;
+            text-transform: uppercase;
+            transition: 0.3s ease-in-out;
+        }
+
+        a:first-child {
+            padding-left: 0;
+        }
+
+        a:last-child {
+            padding-right: 0;
+        }
+    }
+}

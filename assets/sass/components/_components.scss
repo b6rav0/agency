@@ -1,0 +1,61 @@
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    button {
+        background-color: rgba(17, 36, 90, 0.7);
+    }
+}
+
+button {
+    width: 10em;
+    height: 3em;
+    border-radius: 0px;
+    color: white;
+    background: $cyan;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.flex {
+    display: flex;
+    flex-flow: wrap;
+}
+
+::selection {
+    color: black;
+    background: $cyan;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    margin-right:5px;
+}
+
+::-webkit-scrollbar-track {
+    background: $dark-blue;
+    position: fixed;
+}
+
+::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 10px;
+}
+
+section {
+    padding: 10%;
+    overflow: hidden;
+
+    h1 {
+        font-size: 2.25em;
+        font-weight: 700;
+    }
+
+    h2 {
+        color: $dark-blue;
+        font-size: 1em;
+        font-weight: 700;
+    }
+}
