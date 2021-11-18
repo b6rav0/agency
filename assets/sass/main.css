@@ -18,18 +18,18 @@ a {
   text-decoration: none;
 }
 
-a:hover button {
-  background-color: rgba(17, 36, 90, 0.7);
-}
-
 button {
   width: 10em;
   height: 3em;
-  border-radius: 0px;
+  border-radius: 4px;
   color: white;
   background: #5BECC0;
   cursor: pointer;
   transition: 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: rgba(17, 36, 90, 0.7);
 }
 
 .flex {
@@ -208,6 +208,52 @@ section#services div.flex div.card:hover p {
 }
 section#services div.flex div.card:hover a:hover {
   color: black;
+}
+
+section#contact {
+  padding-top: 0;
+  padding-right: 0;
+  background: rgba(17, 36, 90, 0.05);
+}
+section#contact div {
+  flex: 100px;
+}
+section#contact div#texts-container {
+  padding-right: 5%;
+}
+section#contact div#texts-container form {
+  margin-top: 5%;
+}
+section#contact div#texts-container form label {
+  display: block;
+  margin: 1.5em 0 1em;
+  color: #11245A;
+  font-size: 0.875em;
+  font-weight: 700;
+  cursor: pointer;
+}
+section#contact div#texts-container form input,
+section#contact div#texts-container form textarea {
+  width: 100%;
+  height: 3em;
+  padding: 2.5% 1.25%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  background: transparent;
+}
+section#contact div#texts-container form textarea {
+  height: 15em;
+  resize: none;
+}
+section#contact div#texts-container form ::placeholder {
+  font-weight: 100;
+}
+section#contact div#texts-container form button {
+  margin-top: 1.5em;
+}
+section#contact div#img-container img {
+  width: 35em;
+  float: right;
 }
 
 /*# sourceMappingURL=main.css.map */

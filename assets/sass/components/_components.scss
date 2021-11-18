@@ -3,20 +3,18 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    button {
-        background-color: rgba(17, 36, 90, 0.7);
-    }
-}
-
 button {
     width: 10em;
     height: 3em;
-    border-radius: 0px;
+    border-radius: 4px;
     color: white;
     background: $cyan;
     cursor: pointer;
     transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: rgba(17, 36, 90, 0.7);
 }
 
 .flex {
