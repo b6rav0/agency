@@ -1,6 +1,5 @@
 section#contact {
-    padding-top: 0;
-    padding-right: 0;
+    padding: 0 0 0 10%;
     background: $dark-blue-transparent;
 
     div {
@@ -37,7 +36,7 @@ section#contact {
             }
 
             ::placeholder {
-                font-weight: 100;
+                font-weight: 300;
             }
 
             button {
@@ -47,6 +46,7 @@ section#contact {
     }
 
     div#img-container {
+        padding-top: 10%;
         img {
             width: 35em;
             float: right;

@@ -1,0 +1,36 @@
+section#subscribe {
+    color: white;
+    background: $dark-blue;
+    text-align: center;
+
+    h2 {
+        margin: 1% 15%;
+        color: white;
+        font-weight: 300;
+    }
+
+    form {
+        margin-top: 5%;
+
+        div {
+            margin: 0 15%;
+            height: 4.375em;
+            padding: 1% 2%;
+            border-radius: 4px;
+            background: white;
+
+
+            input {
+                float: left;
+                width: 75%;
+                height: 100%;
+                outline: none;
+            }
+
+            button {
+                float: right;
+                width: 20%;
+            }
+        }
+    }
+}

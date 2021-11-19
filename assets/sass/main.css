@@ -71,6 +71,77 @@ section h2 {
   font-weight: 700;
 }
 
+footer {
+  padding: 5% 0 2.5%;
+  background: rgba(17, 36, 90, 0.05);
+}
+footer div.flex {
+  padding: 0 10% 2.5%;
+}
+footer div.flex div.column {
+  flex: 20%;
+  margin: 0 2.5%;
+}
+footer div.flex div.column h2 {
+  margin-bottom: 1.5em;
+  color: #11245A;
+  font-size: 1.125em;
+  font-weight: 700;
+}
+footer div.flex div.column a {
+  display: block;
+  margin: 1em 0;
+  transition: 0.3s ease-in-out;
+}
+footer div.flex div.column a:hover {
+  text-decoration: underline;
+  text-decoration-color: #11245A;
+}
+footer div.flex div.column:first-of-type {
+  margin-left: 0;
+}
+footer div.flex div.column:first-of-type h1 {
+  margin-top: -5%;
+  margin-bottom: 1em;
+  color: #11245A;
+  font-size: 1.75em;
+  font-weight: 700;
+}
+footer div.flex div.column:first-of-type a {
+  display: inline-block;
+  padding: 0 2.5%;
+  font-size: 1.125em;
+}
+footer div.flex div.column:first-of-type a:hover {
+  border-radius: 50px;
+  color: white;
+  background: #11245A;
+}
+footer div.flex div.column:last-of-type {
+  margin-right: 0;
+}
+footer div.flex div.column:last-of-type address {
+  font-style: normal;
+}
+footer hr {
+  height: 1px;
+  background: rgba(0, 0, 0, 0.1);
+}
+footer div#copyright {
+  padding: 2.5% 10% 0;
+  text-align: center;
+}
+footer div#copyright p {
+  font-weight: 700;
+}
+footer div#copyright p a {
+  font-weight: inherit;
+  color: #11245A;
+}
+footer div#copyright p a:hover {
+  text-decoration: underline;
+}
+
 header {
   position: fixed;
   z-index: 1;
@@ -181,11 +252,13 @@ section#services div.flex div.card img {
 }
 section#services div.flex div.card h3 {
   font-size: 1.125em;
+  font-weight: 700;
 }
 section#services div.flex div.card p {
   margin: 10% 0 5%;
   color: #767587;
   font-size: 0.875em;
+  font-weight: 700;
   text-align: left;
 }
 section#services div.flex div.card a {
@@ -211,8 +284,7 @@ section#services div.flex div.card:hover a:hover {
 }
 
 section#contact {
-  padding-top: 0;
-  padding-right: 0;
+  padding: 0 0 0 10%;
   background: rgba(17, 36, 90, 0.05);
 }
 section#contact div {
@@ -246,14 +318,48 @@ section#contact div#texts-container form textarea {
   resize: none;
 }
 section#contact div#texts-container form ::placeholder {
-  font-weight: 100;
+  font-weight: 300;
 }
 section#contact div#texts-container form button {
   margin-top: 1.5em;
 }
+section#contact div#img-container {
+  padding-top: 10%;
+}
 section#contact div#img-container img {
   width: 35em;
   float: right;
+}
+
+section#subscribe {
+  color: white;
+  background: #11245A;
+  text-align: center;
+}
+section#subscribe h2 {
+  margin: 1% 15%;
+  color: white;
+  font-weight: 300;
+}
+section#subscribe form {
+  margin-top: 5%;
+}
+section#subscribe form div {
+  margin: 0 15%;
+  height: 4.375em;
+  padding: 1% 2%;
+  border-radius: 4px;
+  background: white;
+}
+section#subscribe form div input {
+  float: left;
+  width: 75%;
+  height: 100%;
+  outline: none;
+}
+section#subscribe form div button {
+  float: right;
+  width: 20%;
 }
 
 /*# sourceMappingURL=main.css.map */
