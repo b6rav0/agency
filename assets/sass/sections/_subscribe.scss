@@ -1,10 +1,12 @@
 section#subscribe {
+    padding-top: 80px;
     color: white;
     background: $dark-blue;
     text-align: center;
 
     h2 {
-        margin: 1% 15%;
+        width: 50%;
+        margin: 24px auto 40px;
         color: white;
         font-weight: 300;
     }
@@ -15,7 +17,7 @@ section#subscribe {
         div {
             margin: 0 15%;
             height: 4.375em;
-            padding: 1% 2%;
+            padding: 8px 1em;
             border-radius: 4px;
             background: white;
 
@@ -32,6 +34,7 @@ section#subscribe {
             button {
                 float: right;
                 width: 20%;
+                height: 3.375em;
                 text-transform: uppercase;
             }
         }

@@ -67,6 +67,7 @@ section h1 {
   font-weight: 700;
 }
 section h2 {
+  margin-top: 8px;
   color: #11245A;
   font-size: 1em;
   font-weight: 700;
@@ -97,7 +98,7 @@ div#back-to-top:hover {
 }
 
 footer {
-  padding: 5% 0 2.5%;
+  padding: 18px 0 2.5%;
   background: rgba(17, 36, 90, 0.05);
 }
 footer div.flex {
@@ -105,7 +106,7 @@ footer div.flex {
 }
 footer div.flex div.column {
   flex: 20%;
-  margin: 0 2.5%;
+  padding-left: 2%;
 }
 footer div.flex div.column h2 {
   margin-bottom: 1.5em;
@@ -126,14 +127,14 @@ footer div.flex div.column:first-of-type {
   margin-left: 0;
 }
 footer div.flex div.column:first-of-type h1 {
-  margin-top: -5%;
-  margin-bottom: 1em;
+  margin-bottom: 24px;
   color: #11245A;
   font-size: 1.75em;
   font-weight: 700;
 }
 footer div.flex div.column:first-of-type a {
   display: inline-block;
+  margin-top: 24px;
   padding: 0 2.5%;
   font-size: 1.125em;
 }
@@ -217,14 +218,16 @@ section#hero {
 }
 section#hero h1 {
   font-size: 3em;
+  line-height: 57.6px;
 }
 section#hero p {
-  margin: 2% 15%;
+  margin: 1em 15% 2em;
   font-size: 1.2em;
   font-weight: 400;
 }
 
 section#about-us {
+  padding-top: 166px;
   padding-bottom: 5%;
 }
 section#about-us div {
@@ -237,13 +240,14 @@ section#about-us div#texts-container h1 {
   margin-top: 15%;
 }
 section#about-us div#texts-container p {
-  margin: 5% 0;
+  margin: 2em 0;
   color: #767587;
 }
 
 section#services {
   padding-left: 7.5%;
   padding-right: 7.5%;
+  padding-bottom: 0;
   background: url("../img/services-bg.png");
 }
 section#services h1,
@@ -251,7 +255,7 @@ section#services h2 {
   text-align: center;
 }
 section#services p {
-  margin: 1% 20% 0;
+  margin: 1em 20% 40px;
   color: #767587;
   font-weight: 700;
   text-align: center;
@@ -259,15 +263,15 @@ section#services p {
 }
 section#services div.flex div.card {
   flex: 20%;
-  margin: 5% 1.25%;
-  padding: 5% 1.25% 1.25%;
+  margin: 0 1.125% 32px;
+  padding: 1em;
   border-radius: 4px;
   background: white;
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
 section#services div.flex div.card img {
-  margin-bottom: 5%;
+  margin-bottom: 1em;
   padding: 2.5%;
   border: 1px solid #5BECC0;
   border-radius: 4px;
@@ -279,10 +283,10 @@ section#services div.flex div.card h3 {
   font-weight: 700;
 }
 section#services div.flex div.card p {
-  margin: 10% 0 5%;
+  margin: 1em 0 24px;
   color: #767587;
   font-size: 0.875em;
-  font-weight: 700;
+  font-weight: 400;
   text-align: left;
 }
 section#services div.flex div.card a {
@@ -308,17 +312,17 @@ section#services div.flex div.card:hover a:hover {
 }
 
 section#contact {
-  padding: 0 0 0 10%;
+  padding: 120px 0 0 10%;
   background: rgba(17, 36, 90, 0.05);
 }
 section#contact div {
   flex: 100px;
 }
 section#contact div#texts-container {
-  padding-right: 5%;
+  padding-right: 32px;
 }
 section#contact div#texts-container form {
-  margin-top: 5%;
+  margin-top: 40px;
 }
 section#contact div#texts-container form label {
   display: block;
@@ -347,22 +351,23 @@ section#contact div#texts-container form ::placeholder {
 }
 section#contact div#texts-container form button {
   margin-top: 1.5em;
-}
-section#contact div#img-container {
-  padding-top: 10%;
+  margin-bottom: 120px;
 }
 section#contact div#img-container img {
-  width: 35em;
+  width: 45em;
+  height: 50em;
   float: right;
 }
 
 section#subscribe {
+  padding-top: 80px;
   color: white;
   background: #11245A;
   text-align: center;
 }
 section#subscribe h2 {
-  margin: 1% 15%;
+  width: 50%;
+  margin: 24px auto 40px;
   color: white;
   font-weight: 300;
 }
@@ -372,7 +377,7 @@ section#subscribe form {
 section#subscribe form div {
   margin: 0 15%;
   height: 4.375em;
-  padding: 1% 2%;
+  padding: 8px 1em;
   border-radius: 4px;
   background: white;
 }
@@ -387,6 +392,7 @@ section#subscribe form div input {
 section#subscribe form div button {
   float: right;
   width: 20%;
+  height: 3.375em;
   text-transform: uppercase;
 }
 

@@ -1,5 +1,5 @@
 footer {
-    padding: 5% 0 2.5%;
+    padding: 18px 0 2.5%;
     background: $dark-blue-transparent;
 
     div.flex {
@@ -7,7 +7,7 @@ footer {
 
         div.column {
             flex: 20%;
-            margin: 0 2.5%;
+            padding-left: 2%;
 
             h2 {
                 margin-bottom: 1.5em;
@@ -32,8 +32,7 @@ footer {
             margin-left: 0;
 
             h1 {
-                margin-top: -5%;
-                margin-bottom: 1em;
+                margin-bottom: 24px;
                 color: $dark-blue;
                 font-size: 1.75em;
                 font-weight: 700;
@@ -41,6 +40,7 @@ footer {
 
             a {
                 display: inline-block;
+                margin-top: 24px;
                 padding: 0 2.5%;
                 font-size: 1.125em;
             }

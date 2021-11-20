@@ -1,5 +1,5 @@
 section#contact {
-    padding: 0 0 0 10%;
+    padding: 120px 0 0 10%;
     background: $dark-blue-transparent;
 
     div {
@@ -7,9 +7,10 @@ section#contact {
     }
 
     div#texts-container {
-        padding-right: 5%;
+        padding-right: 32px;
+
         form {
-            margin-top: 5%;
+            margin-top: 40px;
 
             label {
                 display: block;
@@ -42,14 +43,15 @@ section#contact {
 
             button {
                 margin-top: 1.5em;
+                margin-bottom: 120px;
             }
         }
     }
 
     div#img-container {
-        padding-top: 10%;
         img {
-            width: 35em;
+            width: 45em;
+            height: 50em;
             float: right;
         }
     }
