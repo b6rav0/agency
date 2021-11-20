@@ -297,6 +297,7 @@ section#services div.flex div.card a i {
 section#services div.flex div.card:hover {
   color: white;
   background: #5BECC0;
+  box-shadow: 5px 15px 20px 0px rgba(91, 236, 192, 0.25);
 }
 section#services div.flex div.card:hover img {
   background: white;

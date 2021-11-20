@@ -62,6 +62,7 @@ section#services {
         div.card:hover {
             color: white;
             background: $cyan;
+            box-shadow: 5px 15px 20px 0px rgba(91, 236, 192, 0.25);
 
             img {
                 background: white;
