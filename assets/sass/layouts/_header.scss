@@ -4,9 +4,9 @@ header {
     width: 100%;
     padding: 1% 10%;
     color: white;
-    background: $dark-blue;
+    // background: $dark-blue;
     overflow: hidden;
-    // box-shadow: 0 0 5px 0 black;
+    transition: 0.3s ease-in-out;
 
     a {
         h1 {
@@ -19,7 +19,7 @@ header {
     nav {
         float: right;
         width: 45%;
-        padding-top: 1%;
+        padding-top: 0.8%;
         text-align: center;
 
         a {

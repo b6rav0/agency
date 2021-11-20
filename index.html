@@ -13,14 +13,17 @@
 	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Roboto&display=swap" rel="stylesheet">
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/16160946ec.js" crossorigin="anonymous"></script>
+
+	<!-- Animate on Scroll -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/sass/main.css">
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <a href="">
             <h1>AGENCY</h1>
             <!-- Logo goes here -->
@@ -34,6 +37,11 @@
         </nav>
     </header>
 
+
+	<!-- Back to Top Arrow Button -->
+	<div id="back-to-top">
+		<i class="fas fa-long-arrow-alt-up"></i>
+	</div>
     
     <!-- Hero -->
     <section id="hero">
@@ -358,5 +366,12 @@
 		</div>
 
 	</footer>
+
+
+	<!-- Scripts -->
+	<script src="assets/scripts/header.js"></script>
+
+	<!-- Animate on Scroll -->
+	<script>AOS.init();</script>
 </body>
 </html>
