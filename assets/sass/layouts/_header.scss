@@ -6,7 +6,7 @@ header {
     color: white;
     // background: $dark-blue;
     overflow: hidden;
-    transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out !important;
 
     a {
         h1 {
@@ -24,9 +24,20 @@ header {
 
         a {
             padding: 0 2.5%;
-            font-weight: 400;
             text-transform: uppercase;
             transition: 0.3s ease-in-out;
+
+            span {
+                padding-bottom: 5px;
+                font-weight: 400;
+                transition: 0.3s;
+            }
+        }
+
+        a:hover {
+            span {
+                border-bottom: 5px solid white;
+            }
         }
 
         a:first-child {
@@ -37,4 +48,9 @@ header {
             padding-right: 0;
         }
     }
+}
+
+
+header:hover {
+    background: $dark-blue !important;
 }

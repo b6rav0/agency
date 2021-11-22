@@ -175,7 +175,7 @@ header {
   padding: 1% 10%;
   color: white;
   overflow: hidden;
-  transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out !important;
 }
 header a h1 {
   float: left;
@@ -190,15 +190,26 @@ header nav {
 }
 header nav a {
   padding: 0 2.5%;
-  font-weight: 400;
   text-transform: uppercase;
   transition: 0.3s ease-in-out;
+}
+header nav a span {
+  padding-bottom: 5px;
+  font-weight: 400;
+  transition: 0.3s;
+}
+header nav a:hover span {
+  border-bottom: 5px solid white;
 }
 header nav a:first-child {
   padding-left: 0;
 }
 header nav a:last-child {
   padding-right: 0;
+}
+
+header:hover {
+  background: #11245A !important;
 }
 
 section#hero {
