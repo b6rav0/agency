@@ -40,3 +40,32 @@ section#subscribe {
         }
     }
 }
+
+
+// RESPONSIVENESS
+@media (max-width: 800px) {
+    section#subscribe {
+        h2 {
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0;
+        }       
+
+        form {
+            div {
+                margin: 0;
+                width: 100%;
+
+                input {
+                    width: 60%;
+                    font-size: 1em;
+                }
+
+                button {
+                    width: 35%;
+                    padding: 0 2.5%;
+                }
+            }
+        }
+    }
+}

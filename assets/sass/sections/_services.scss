@@ -3,6 +3,8 @@ section#services {
     padding-right: 7.5%;
     padding-bottom: 0;
     background: url('../img/services-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 
     h1,
     h2 {
@@ -75,6 +77,33 @@ section#services {
 
             a:hover {
                 color: black;
+            }
+        }
+    }
+}
+
+
+
+// RESPONSIVENESS
+@media (max-width: 800px) {
+    section#services {
+        padding-left: 5%;
+        padding-right: 5%;
+        
+        h1,
+        h2 {
+            text-align: left;
+        }
+
+        p {
+            margin-left: 0;
+            text-align: left;
+        }
+
+        div.flex {
+            div.card {
+                margin-left: 0;
+                margin-right: 0;
             }
         }
     }

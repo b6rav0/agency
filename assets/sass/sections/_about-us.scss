@@ -19,3 +19,24 @@ section#about-us {
         }
     }
 }
+
+
+@media (max-width: 800px) {
+    section#about-us {
+        padding-top: 1em;
+
+        div#image-container {
+            img {
+                width: 100%;
+                text-align: center;
+            }
+        }
+
+        div#texts-container {
+            padding-left: 0;
+            h1 {
+                margin-top: 1em;
+            }
+        }
+    }
+}

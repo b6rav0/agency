@@ -54,3 +54,18 @@ header {
 header:hover {
     background: $dark-blue !important;
 }
+
+
+// RESPONSIVENESS
+@media (max-width: 800px) {
+    header {
+        padding: 1% 5%;
+        nav {
+            display: none;
+            
+            a {
+                display: block;
+            }
+        }       
+    }
+}

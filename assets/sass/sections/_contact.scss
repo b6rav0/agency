@@ -50,10 +50,29 @@ section#contact {
 
     div#img-container {
         img {
+            float: right;
             width: 45em;
             height: 50em;
-            float: right;
         }
     }
 
+}
+
+
+// RESPONSIVENESS
+@media(max-width: 800px) {
+    section#contact {
+        padding-left: 0;
+        
+        div#texts-container {
+            padding-left: 5%;
+        }
+
+        div#img-container {
+            img {
+                float: none;
+                margin-bottom: -1em;
+            }
+        }
+    }
 }
