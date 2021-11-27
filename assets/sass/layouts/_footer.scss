@@ -6,8 +6,9 @@ footer {
         padding: 0 10% 2.5%;
 
         div.column {
-            flex: 20%;
+            flex: 33.33%;
             padding-left: 2%;
+            text-align: center;
 
             h2 {
                 margin-bottom: 1.5em;
@@ -30,9 +31,10 @@ footer {
 
         div.column:first-of-type {
             margin-left: 0;
+            text-align: left;
 
             h1 {
-                margin-bottom: 24px;
+                margin-bottom: 18px;
                 color: $dark-blue;
                 font-size: 1.75em;
                 font-weight: 700;

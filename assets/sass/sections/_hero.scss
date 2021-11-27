@@ -22,3 +22,17 @@ section#hero {
         font-weight: 400;
     }
 }
+
+
+@media (max-width: 800px) {
+    section#hero {
+        height: 100%;
+        padding-top: 10em;
+        text-align: left;
+
+        p {
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+}

@@ -58,6 +58,12 @@ section {
         font-size: 1em;
         font-weight: 700;
     }
+
+    // stays hidden until toggled by a read more button
+    div.hidden-by-default {
+        height: 0;
+        overflow: hidden;
+    }
 }
 
 

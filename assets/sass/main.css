@@ -72,6 +72,10 @@ section h2 {
   font-size: 1em;
   font-weight: 700;
 }
+section div.hidden-by-default {
+  height: 0;
+  overflow: hidden;
+}
 
 div#back-to-top {
   position: fixed;
@@ -115,8 +119,9 @@ footer div.flex {
   padding: 0 10% 2.5%;
 }
 footer div.flex div.column {
-  flex: 20%;
+  flex: 33.33%;
   padding-left: 2%;
+  text-align: center;
 }
 footer div.flex div.column h2 {
   margin-bottom: 1.5em;
@@ -135,9 +140,10 @@ footer div.flex div.column a:hover {
 }
 footer div.flex div.column:first-of-type {
   margin-left: 0;
+  text-align: left;
 }
 footer div.flex div.column:first-of-type h1 {
-  margin-bottom: 24px;
+  margin-bottom: 18px;
   color: #11245A;
   font-size: 1.75em;
   font-weight: 700;
@@ -279,6 +285,17 @@ section#hero p {
   font-weight: 400;
 }
 
+@media (max-width: 800px) {
+  section#hero {
+    height: 100%;
+    padding-top: 10em;
+    text-align: left;
+  }
+  section#hero p {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
 section#about-us {
   padding-top: 166px;
   padding-bottom: 5%;
@@ -457,6 +474,8 @@ section#contact div#img-container img {
   }
   section#contact div#img-container img {
     float: none;
+    width: 100%;
+    height: 20em;
     margin-bottom: -1em;
   }
 }
