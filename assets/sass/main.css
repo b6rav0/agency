@@ -79,7 +79,7 @@ section div.hidden-by-default {
   transition: 1s ease;
 }
 section div.hidden-by-default.shown {
-  height: 100%;
+  height: 25em;
 }
 
 div#back-to-top {
