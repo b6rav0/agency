@@ -38,6 +38,12 @@ section#subscribe {
                 text-transform: uppercase;
             }
         }
+
+        button#show-on-mobile {
+            display: none;
+            height: 3.375em;
+            margin-top: 1em;
+        }
     }
 }
 
@@ -57,14 +63,17 @@ section#subscribe {
                 width: 100%;
 
                 input {
-                    width: 60%;
+                    width: 100%;
                     font-size: 1em;
                 }
 
                 button {
-                    width: 35%;
-                    padding: 0 2.5%;
+                    display: none;
                 }
+            }
+
+            button#show-on-mobile {
+                display: inline-block;
             }
         }
     }
