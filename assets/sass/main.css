@@ -25,12 +25,13 @@ button {
   color: white;
   background: #5BECC0;
   font-weight: 400;
+  outline-color: #5BECC0;
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
 
 button:hover {
-  color: black;
+  background: #007D59;
 }
 
 .flex {
@@ -75,6 +76,10 @@ section h2 {
 section div.hidden-by-default {
   height: 0;
   overflow: hidden;
+  transition: 1s ease;
+}
+section div.hidden-by-default.shown {
+  height: 100%;
 }
 
 div#back-to-top {
@@ -304,6 +309,7 @@ section#about-us div {
   flex: 100px;
 }
 section#about-us div#texts-container {
+  height: fit-content;
   padding-left: 5%;
 }
 section#about-us div#texts-container h1 {

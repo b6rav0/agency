@@ -10,12 +10,13 @@ button {
     color: white;
     background: $cyan;
     font-weight: 400;
+    outline-color: $cyan;
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }
 
 button:hover {
-    color: black;
+    background: $light-green;
 }
 
 .flex {
@@ -63,6 +64,11 @@ section {
     div.hidden-by-default {
         height: 0;
         overflow: hidden;
+        transition: 1s ease;
+    }
+
+    div.hidden-by-default.shown {
+        height: 100%;
     }
 }
 
