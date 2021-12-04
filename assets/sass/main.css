@@ -289,6 +289,9 @@ section#hero p {
   font-size: 1.2em;
   font-weight: 400;
 }
+section#hero a {
+  display: inline-block;
+}
 
 @media (max-width: 800px) {
   section#hero {
