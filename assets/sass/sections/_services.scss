@@ -27,7 +27,7 @@ section#services {
             border-radius: 4px;
             background: white;
             cursor: pointer;
-            transition: 0.3s ease-in-out;
+            // transition: 0.3s ease-in-out;
 
             img {
                 margin-bottom: 1em;
@@ -54,6 +54,8 @@ section#services {
             a {
                 font-size: 0.875em;
                 font-weight: 700;
+                color: black;
+                
 
                 i {
                     padding-left: 2.5%;
@@ -76,7 +78,8 @@ section#services {
             }
 
             a:hover {
-                color: black;
+                color: $dark-blue;
+                transition: 0.3s ease-in-out;
             }
         }
     }

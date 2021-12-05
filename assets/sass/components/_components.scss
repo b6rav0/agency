@@ -62,13 +62,13 @@ section {
 
     // stays hidden until toggled by a read more button
     div.hidden-by-default {
-        height: 0;
+        max-height: 0;
         overflow: hidden;
         transition: 1s ease;
     }
 
     div.hidden-by-default.shown {
-        height: 25em;
+        max-height: 50em;
     }
 }
 

@@ -74,12 +74,12 @@ section h2 {
   font-weight: 700;
 }
 section div.hidden-by-default {
-  height: 0;
+  max-height: 0;
   overflow: hidden;
   transition: 1s ease;
 }
 section div.hidden-by-default.shown {
-  height: 25em;
+  max-height: 50em;
 }
 
 div#back-to-top {
@@ -367,7 +367,6 @@ section#services div.flex div.card {
   border-radius: 4px;
   background: white;
   cursor: pointer;
-  transition: 0.3s ease-in-out;
 }
 section#services div.flex div.card img {
   margin-bottom: 1em;
@@ -391,6 +390,7 @@ section#services div.flex div.card p {
 section#services div.flex div.card a {
   font-size: 0.875em;
   font-weight: 700;
+  color: black;
 }
 section#services div.flex div.card a i {
   padding-left: 2.5%;
@@ -408,7 +408,8 @@ section#services div.flex div.card:hover p {
   transition: 0.3s ease-in-out;
 }
 section#services div.flex div.card:hover a:hover {
-  color: black;
+  color: #11245A;
+  transition: 0.3s ease-in-out;
 }
 
 @media (max-width: 800px) {

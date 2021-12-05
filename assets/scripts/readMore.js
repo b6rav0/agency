@@ -13,7 +13,7 @@ function readMore() {
     moreContent.classList.toggle('shown');
 
     // Changing the Button Text
-    if (toggler.textContent == "Read More") {
+    if (toggler.textContent.includes("More")) {
         toggler.textContent = "Read Less"
     } else {
         toggler.textContent = "Read More"
