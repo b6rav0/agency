@@ -20,6 +20,7 @@ footer {
             a {
                 display: block;
                 margin: 1em 0;
+                font-weight: 700;
                 transition: 0.3s ease-in-out;
             }
 
@@ -44,6 +45,10 @@ footer {
                 -moz-user-select: none;
                 -ms-user-select: none;
                 user-select: none;
+            }
+
+            p {
+                font-weight: 400;
             }
 
             a {
