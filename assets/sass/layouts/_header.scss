@@ -2,7 +2,7 @@ header {
     position: fixed;
     z-index: 1;
     width: 100%;
-    padding: 1% 10%;
+    padding: 1% 9.25em;
     color: white;
     // background: $dark-blue;
     overflow: hidden;
@@ -13,6 +13,12 @@ header {
             float: left;
             font-size: 2em;
             font-weight: 700;
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
         }
     }
 
@@ -23,7 +29,7 @@ header {
         text-align: center;
 
         a {
-            padding: 0 2.5%;
+            padding: 0 4%;
             text-transform: uppercase;
             transition: 0.3s ease-in-out;
 
@@ -45,7 +51,11 @@ header {
         }
 
         a:last-child {
-            padding-right: 0;
+            padding-right: 0;           
+
+            span {
+                float: right;
+            }
         }
     }
 }

@@ -36,8 +36,14 @@ footer {
             h1 {
                 margin-bottom: 18px;
                 color: $dark-blue;
-                font-size: 1.75em;
+                font-size: 2em;
                 font-weight: 700;
+                -webkit-touch-callout: none;
+                -webkit-user-select: none;
+                -khtml-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
             }
 
             a {
