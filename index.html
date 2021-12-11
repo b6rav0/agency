@@ -41,6 +41,11 @@
     </header>
 
 
+    <!-- Will display when a services card is expanded -->
+    <div id="overlay">
+    </div>
+
+
 	<!-- Back to Top Arrow Button -->
 	<div id="back-to-top">
 		<i class="fas fa-long-arrow-alt-up"></i>
@@ -117,21 +122,19 @@
                     Alabama Sports is a multi-national, full-service sports consultancy, driven by passionate, honest, connected and hard-working professionals who are focused on building trustworthy and long-lasting relationships with our athletes.
                 </p>
                     
-                <div class="hidden-by-default">
-                    <p>
-                        We are committed to a common goal - to ensure our clients gets the best out of their careers by supporting them with our services, families and brand opportunities.	 
-                    </p>
-                    
-                    <p>
-                        We manage footballers, swimmers, track and field athletes. We also have a dedicated legal team division who work hard in maximizing image rights and commercial opportunities for all our clients.
-                    </p>
+                <p>
+                    We are committed to a common goal - to ensure our clients gets the best out of their careers by supporting them with our services, families and brand opportunities.	 
+                </p>
+                
+                <p>
+                    We manage footballers, swimmers, track and field athletes. We also have a dedicated legal team division who work hard in maximizing image rights and commercial opportunities for all our clients.
+                </p>
 
-                    <p>
-                        We have continued to grow as our client base expands annually. We provide an all-encompassing service that ensures our clients are well managed at every level.
-                    </p>
-                </div>
+                <p>
+                    We have continued to grow as our client base expands annually. We provide an all-encompassing service that ensures our clients are well managed at every level.
+                </p>
 
-                <a onclick="readMore()">Read More <i class="fas fa-arrow-right"></i></a>
+                <a onclick="displayOverlay()">Read More <i class="fas fa-arrow-right"></i></a>
             </div>
 
 
@@ -143,10 +146,10 @@
                 </h3>
 
                 <p>
-                    Lorem ipsum dolor sit amet, consect adipiscing elit. Felis molestie ullamcorper posuere non ullamcorper volutpat tortor, egestas quam. Felis molestie....... 
+                    Impeccable landlord representation requires a good blend of marketing, maintenance, customer service, and commercial awareness to achieve or exceed the owner’s expectations. These are skills we’ve honed over the years, spiced with excellence and integrity.
                 </p>
 
-                <a onclick="readMore()">Read More <i class="fas fa-arrow-right"></i></a>
+                <a onclick="displayOverlay()">Read More <i class="fas fa-arrow-right"></i></a>
             </div>
 
             <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
@@ -160,20 +163,18 @@
                     We help organizations integrate digital tools, collaborate with agencies and service providers and blend new talent with external creatives to drive result.
                 </p>
                     
-                <div class="hidden-by-default">
-                    <p>
-                        We help our clients build advantaged positions with strong growth potentials. Whether innovating at product service or business level, we stay up to date with the trends shaping demand and apply up to date practices to your organization by assessing strengths and weaknesses of your current consumer products innovation system.
-                    </p>
-                        
-                    <p>
-                        We point out the most attractive investments. We help our client rethink what, when and how they sell to address the challenges in commercialization.
-                    </p>
-                    <p>
-                        Retailers must prioritize digital efforts as a strategy that is more responsive to customer needs and our personalized approach helps them thrive in this environment.
-                    </p>
-                </div>
+                <p>
+                    We help our clients build advantaged positions with strong growth potentials. Whether innovating at product service or business level, we stay up to date with the trends shaping demand and apply up to date practices to your organization by assessing strengths and weaknesses of your current consumer products innovation system.
+                </p>
+                    
+                <p>
+                    We point out the most attractive investments. We help our client rethink what, when and how they sell to address the challenges in commercialization.
+                </p>
+                <p>
+                    Retailers must prioritize digital efforts as a strategy that is more responsive to customer needs and our personalized approach helps them thrive in this environment.
+                </p>
 
-                <a onclick="readMore()">Read More <i class="fas fa-arrow-right"></i></a>
+                <a onclick="displayOverlay()">Read More <i class="fas fa-arrow-right"></i></a>
             </div>
 
             <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750">
@@ -187,18 +188,15 @@
                     Telecommunication companies have an opportunity to expand digitally. We help our clients innovate as they expand. We also help our clients own new opportunities.
                 </p>
                     
-                <div class="hidden-by-default">
-                    <p>
-                        We manage challenges such as competition from agile digital players and price pressure effectively. We help align with capabilities.
-                    </p>
-                        
-                    <p>
-                        Whether this means providing network software and device capabilities, we help to adjust to a rapidly changing market. We collaborate with clients in Digital Inclusion, Growth Tech, Future of Television and Artificial Intelligence Driven lifetime value.
-                    </p>
+                <p>
+                    We manage challenges such as competition from agile digital players and price pressure effectively. We help align with capabilities.
+                </p>
                     
-                </div>
+                <p>
+                    Whether this means providing network software and device capabilities, we help to adjust to a rapidly changing market. We collaborate with clients in Digital Inclusion, Growth Tech, Future of Television and Artificial Intelligence Driven lifetime value.
+                </p>
 
-                <a onclick="readMore()">Read More <i class="fas fa-arrow-right"></i></a>
+                <a onclick="displayOverlay()">Read More <i class="fas fa-arrow-right"></i></a>
             </div>
 
 
@@ -212,13 +210,12 @@
                 <p>
                     At Alabama Consulting Limited, we have deep expertise in supporting education initiative at all levels and partnering with non-governmental organization to strengthen education. 
                 </p>
-                <div class="hidden-by-default">
-                    <p>
-                        There is an opportunity to accelerate innovation and social impact in education and strategic focus. Cultures and educational models need to be transformed to enable learning in this 21st century.
-                    </p>
-                </div>
 
-                <a onclick="readMore()">Read More <i class="fas fa-arrow-right"></i></a>
+                <p>
+                    There is an opportunity to accelerate innovation and social impact in education and strategic focus. Cultures and educational models need to be transformed to enable learning in this 21st century.
+                </p>
+
+                <a onclick="displayOverlay()">Read More <i class="fas fa-arrow-right"></i></a>
             </div>
 
             <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250">
@@ -232,17 +229,15 @@
                     Our market consultants have their fingers on the pulse of economies to capture the opportunities that emerging markets present. We have cultivated a powerful experience and well-connected presence.
                 </p>
 
-                <div class="hidden-by-default">
-                    <p>
-                        We bring together a good team of local market experts to collaborate on critical topics and strategies. Alabama Consulting Limited helps traditional and digital media organization find ways to deliver media content in efficient and profitable ways.
-                    </p>
+                <p>
+                    We bring together a good team of local market experts to collaborate on critical topics and strategies. Alabama Consulting Limited helps traditional and digital media organization find ways to deliver media content in efficient and profitable ways.
+                </p>
 
-                    <p>
-                        Our media professionals work with most of the world’s leading media and entertainment companies providing extensive professional advice on a whole range of operational financial regulatory and strategic issue.
-                    </p>
-                </div>
+                <p>
+                    Our media professionals work with most of the world’s leading media and entertainment companies providing extensive professional advice on a whole range of operational financial regulatory and strategic issue.
+                </p>
 
-                <a onclick="readMore()">Read More <i class="fas fa-arrow-right"></i></a>
+                <a onclick="displayOverlay()">Read More <i class="fas fa-arrow-right"></i></a>
             </div>
 
 
@@ -257,7 +252,7 @@
                     Lorem ipsum dolor sit amet, consect adipiscing elit. Felis molestie ullamcorper posuere non ullamcorper volutpat tortor, egestas quam. Felis molestie....... 
                 </p>
 
-                <a onclick="readMore()">Read More <i class="fas fa-arrow-right"></i></a>
+                <a onclick="displayOverlay()">Read More <i class="fas fa-arrow-right"></i></a>
             </div>
 
 
@@ -272,17 +267,15 @@
                     Alabama Consulting Limited helps institutions (global and regional) build for the future, using digital innovations to bring about fundamental change.
                 </p>
                     
-                <div class="hidden-by-default">
-                    <p>
-                        We use the front to back digitalization approach to create transformations with lasting impacts. We understand the challenging and changing environment and we combine industry knowledge with technical experience to help our clients deal with complex business models.
-                    </p>
-                    
-                    <p>
-                        We offer Asset management, Regulatory Compliance, Risk Management and Sustainable Finance and Investing.
-                    </p>
-                </div>
+                <p>
+                    We use the front to back digitalization approach to create transformations with lasting impacts. We understand the challenging and changing environment and we combine industry knowledge with technical experience to help our clients deal with complex business models.
+                </p>
+                
+                <p>
+                    We offer Asset management, Regulatory Compliance, Risk Management and Sustainable Finance and Investing.
+                </p>
 
-                <a onclick="readMore()">Read More <i class="fas fa-arrow-right"></i></a>
+                <a onclick="displayOverlay()">Read More <i class="fas fa-arrow-right"></i></a>
             </div>
 
 
@@ -294,10 +287,10 @@
                 </h3>
 
                 <p>
-                    Lorem ipsum dolor sit amet, consect adipiscing elit. Felis molestie ullamcorper posuere non ullamcorper volutpat tortor, egestas quam. Felis molestie....... 
+                    We offer on and off-site management, maintenance, HVAC management, cleaning, landscaping, catering, security, renovation/conversion project management and other related services required for optimal occupation of property.
                 </p>
 
-                <a onclick="readMore()">Read More <i class="fas fa-arrow-right"></i></a>
+                <a onclick="displayOverlay()">Read More <i class="fas fa-arrow-right"></i></a>
             </div>
 
 
@@ -309,10 +302,11 @@
                 </h3>
 
                 <p>
-                    Lorem ipsum dolor sit amet, consect adipiscing elit. Felis molestie ullamcorper posuere non ullamcorper volutpat tortor, egestas quam. Felis molestie....... 
+                    We reduce complex environmental and construction issues to simple business decisions.
+                    From due diligence to closing to property management, Alabama Consulting Limited ensures the success of our clients. Our inspections are thorough. Our reports are accurate and concise. We respond quickly. ACL understands the heightened scrutiny of commercial real estate finance. We do not create concerns, allow ambiguity, or amplify trivial issues. We provide the intelligence needed to close deals.
                 </p>
 
-                <a onclick="readMore()">Read More <i class="fas fa-arrow-right"></i></a>
+                <a onclick="displayOverlay()">Read More <i class="fas fa-arrow-right"></i></a>
             </div>
 
 
@@ -327,7 +321,7 @@
                     At Alabama Consulting Limited, we help clients align their capital portfolio with their strategy, reducing to the minimum, waste in small and midsize projects. We ensure that the necessary change management is optimizing value on all levels.
                 </p>
 
-                <a onclick="readMore()">Read More <i class="fas fa-arrow-right"></i></a>
+                <a onclick="displayOverlay()">Read More <i class="fas fa-arrow-right"></i></a>
             </div>
 
 
@@ -342,13 +336,11 @@
                     We have expanded our range of services and we offer our clients comprehensive and internationally oriented legal advice. We also help represent our clients before courts and authorities.
                 </p>
                 
-                <div class="hidden-by-default">
-                    <p>
-                        We have a team of experienced lawyers for fields such as Labor Law, Energy Law, Finance, Real Estate, IP and Competition law, IT and Data Protection law, Litigation and Arbitration, Insurance Law, Capital Markets Law, Cyber Security.
-                    </p>
-                </div>
+                <p>
+                    We have a team of experienced lawyers for fields such as Labor Law, Energy Law, Finance, Real Estate, IP and Competition law, IT and Data Protection law, Litigation and Arbitration, Insurance Law, Capital Markets Law, Cyber Security.
+                </p>
 
-                <a onclick="readMore()">Read More <i class="fas fa-arrow-right"></i></a>
+                <a onclick="displayOverlay()">Read More <i class="fas fa-arrow-right"></i></a>
             </div>
         </div>
     </section>
@@ -428,7 +420,7 @@
 				<h2>CONTACT</h2>
 
 				<address>
-					<a href="https://maps.google.com" target="_blank" rel="noreferrer noopener" title="View on Google Maps">14, Rosanwo Street, Surulere, Lagos</a>
+					<a href="https://goo.gl/maps/xPWiERgaE9qW9Xm27" target="_blank" rel="noreferrer noopener" title="View on Google Maps">14, Rosanwo Street, Surulere, Lagos</a>
 				</address>
 
 				<a href="tel:+234 905 831 1197" title="Call us between 9am - 5pm">+234 905 831 1197</a>
@@ -450,6 +442,7 @@
 	<script src="assets/scripts/header.js"></script>
 	<script src="assets/scripts/subscribe.js"></script>
     <script src="assets/scripts/readMore.js"></script>
+    <script src="assets/scripts/displayOverlay.js"></script>
 
 	<!-- Animate on Scroll -->
 	<script>

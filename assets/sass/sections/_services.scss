@@ -27,7 +27,7 @@ section#services {
             border-radius: 4px;
             background: white;
             cursor: pointer;
-            // transition: 0.3s ease-in-out;
+            overflow: hidden;
 
             img {
                 margin-bottom: 1em;
@@ -44,12 +44,21 @@ section#services {
             }
 
             p {
+                display: none;
+                height: 8.5em;
+                text-overflow: ellipsis;
                 margin: 1em 0 24px;
                 color: $light-gray;
                 font-size: 0.875em;
                 font-weight: 400;
                 text-align: left;
+                overflow: hidden;
             }
+
+            p:first-of-type {
+                display: block;
+            }
+
 
             a {
                 font-size: 0.875em;
@@ -66,7 +75,7 @@ section#services {
         div.card:hover {
             color: white;
             background: $cyan;
-            box-shadow: 5px 15px 20px 0px rgba(91, 236, 192, 0.25);
+            box-shadow: 5px 15px 20px 0px #5BECC040;
 
             img {
                 background: white;
