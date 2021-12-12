@@ -382,6 +382,12 @@ section#about-us {
 section#about-us div {
   flex: 100px;
 }
+section#about-us div#image-container {
+  transition: 0.5s ease;
+}
+section#about-us div#image-container.expand {
+  padding-top: 25%;
+}
 section#about-us div#texts-container {
   height: fit-content;
   padding-left: 5%;
@@ -401,6 +407,9 @@ section#about-us div#texts-container p {
   section#about-us div#image-container img {
     width: 100%;
     text-align: center;
+  }
+  section#about-us div#image-container.expand {
+    padding-top: 0;
   }
   section#about-us div#texts-container {
     padding-left: 0;

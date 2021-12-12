@@ -6,6 +6,14 @@ section#about-us {
         flex: 100px;
     }
 
+    div#image-container {
+        transition: 0.5s ease;
+    }
+
+    div#image-container.expand {
+        padding-top: 25%;
+    }
+
     div#texts-container {
         height: fit-content;
         padding-left: 5%;
@@ -31,6 +39,10 @@ section#about-us {
                 width: 100%;
                 text-align: center;
             }
+        }
+
+        div#image-container.expand {
+            padding-top: 0;
         }
 
         div#texts-container {

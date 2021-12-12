@@ -1,3 +1,5 @@
+imageContainer = document.querySelector('#image-container')
+
 function readMore() {
     // Gets the Element Clicked
     toggler = event.target
@@ -10,6 +12,7 @@ function readMore() {
     // The Secondary Content inside the Container
     moreContent = togglerContainer.querySelector('.hidden-by-default');
     // console.log(moreContent)
+    imageContainer.classList.toggle('expand')
     moreContent.classList.toggle('shown');
 
     // Changing the Button Text
