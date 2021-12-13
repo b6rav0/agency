@@ -2,7 +2,7 @@ header {
     position: fixed;
     z-index: 1;
     width: 100%;
-    padding: 1% 9.25em;
+    padding: 2% 9.25em;
     color: white;
     // background: $dark-blue;
     overflow: hidden;
@@ -29,7 +29,7 @@ header {
         text-align: center;
 
         a {
-            padding: 0 4%;
+            padding: 0 2%;
             text-transform: uppercase;
             transition: 0.3s ease-in-out;
 
@@ -52,10 +52,6 @@ header {
 
         a:last-child {
             padding-right: 0;           
-
-            span {
-                float: right;
-            }
         }
     }
 }

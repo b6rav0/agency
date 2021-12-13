@@ -8,6 +8,10 @@ section#about-us {
 
     div#image-container {
         transition: 0.5s ease;
+        
+        img {
+            transition: 0.5s ease;
+        }
     }
 
     div#image-container.expand {
@@ -23,8 +27,23 @@ section#about-us {
         }
 
         p {
-            margin: 2em 0;
+            margin: 2em 0 0;
             color: $light-gray;
+        }
+
+        // stays hidden until toggled by a read more button
+        div.hidden-by-default {
+            max-height: 0;
+            overflow: hidden;
+            transition: 0.5s ease;
+        }
+
+        div.hidden-by-default.shown {
+            max-height: 25em;
+        }
+
+        button {
+            margin-top: 2em;
         }
     }
 }

@@ -1,4 +1,4 @@
-imageContainer = document.querySelector('#image-container')
+imageContainer = document.querySelector('#image-container');
 
 function readMore() {
     // Gets the Element Clicked
