@@ -170,7 +170,6 @@ footer div.flex {
 }
 footer div.flex div.column {
   flex: 33.33%;
-  padding-left: 2%;
   text-align: center;
 }
 footer div.flex div.column h2 {
@@ -193,23 +192,17 @@ footer div.flex div.column:first-of-type {
   margin-left: 0;
   text-align: left;
 }
-footer div.flex div.column:first-of-type h1 {
-  margin-bottom: 18px;
-  color: #11245A;
-  font-size: 2em;
-  font-weight: 700;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+footer div.flex div.column:first-of-type img {
+  width: 20em;
 }
 footer div.flex div.column:first-of-type p {
   font-weight: 400;
 }
 footer div.flex div.column:first-of-type a {
-  display: inline-block;
+  height: 2em;
+  width: 2em;
+  display: inline-grid;
+  place-items: center;
   margin-top: 24px;
   padding: 0 2.5%;
   font-size: 1.125em;
