@@ -194,6 +194,7 @@ footer div.flex div.column:first-of-type {
 }
 footer div.flex div.column:first-of-type img {
   width: 20em;
+  margin-bottom: 16px;
 }
 footer div.flex div.column:first-of-type p {
   font-weight: 400;
@@ -204,8 +205,9 @@ footer div.flex div.column:first-of-type a {
   display: inline-grid;
   place-items: center;
   margin-top: 24px;
-  padding: 0 2.5%;
-  font-size: 1.125em;
+}
+footer div.flex div.column:first-of-type a i {
+  font-size: 1.2em;
 }
 footer div.flex div.column:first-of-type a:hover {
   border-radius: 50px;
