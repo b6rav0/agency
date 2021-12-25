@@ -1,4 +1,5 @@
 header = document.body.querySelector('#header');
+hero = document.body.querySelector('#hero');
 
 // BACK TO TOP BUTTON
 backToTop = document.body.querySelector('#back-to-top');
@@ -19,6 +20,14 @@ window.onscroll = function() {
 }
 
 
+// toggling the nav on mobile screens
+menuToggler = header.querySelector('#menu-toggler');
+navBar = header.querySelector('nav')
+
+menuToggler.addEventListener('click', function() {
+  navBar.classList.toggle('open')
+  hero.classList.toggle('dropdown')
+})
 
 // Back to Top Functionalities
 backToTop.addEventListener('click', function() {

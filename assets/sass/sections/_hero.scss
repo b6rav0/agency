@@ -10,6 +10,7 @@ section#hero {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    transition: 0.3s ease-in-out;
 
     h1 {
         font-size: 3em;
@@ -25,6 +26,10 @@ section#hero {
     a {
         display: inline-block;
     }
+}
+
+section#hero.dropdown {
+    padding-top: 25em;
 }
 
 
