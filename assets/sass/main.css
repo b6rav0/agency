@@ -263,6 +263,11 @@ footer div.flex div.column:nth-of-type(4) {
 footer div.flex div.column:nth-of-type(3) {
     flex: 50%;
   }
+  footer div#copyright {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: left;
+  }
 }
 header {
   position: fixed;
@@ -383,7 +388,7 @@ section#hero a {
 }
 
 section#hero.dropdown {
-  padding-top: 25em;
+  padding-top: 20em;
 }
 
 @media (max-width: 800px) {
