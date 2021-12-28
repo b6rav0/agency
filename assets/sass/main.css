@@ -192,11 +192,10 @@ footer div.flex div.column:first-of-type {
   text-align: left;
 }
 footer div.flex div.column:first-of-type img {
+  display: block;
   width: 20em;
+  margin: auto;
   margin-bottom: 16px;
-}
-footer div.flex div.column:first-of-type p {
-  font-weight: 400;
 }
 footer div.flex div.column:first-of-type a {
   height: 2em;

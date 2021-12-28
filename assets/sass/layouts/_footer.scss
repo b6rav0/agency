@@ -34,12 +34,10 @@ footer {
             text-align: left;
 
             img {
+                display: block;
                 width: 20em;
+                margin: auto;
                 margin-bottom: 16px;
-            }
-
-            p {
-                font-weight: 400;
             }
 
             a {
