@@ -142,7 +142,7 @@ div#back-to-top i {
 
 div#back-to-top:hover {
   color: white;
-  background: #11245A;
+  background: #007D59;
 }
 
 @media (max-width: 800px) {
@@ -276,10 +276,10 @@ header {
   overflow: hidden;
   transition: 0.3s ease-in-out !important;
 }
-header a h1 {
-  float: left;
-  font-size: 2em;
-  font-weight: 700;
+header a img {
+  width: 7em;
+  height: auto;
+  margin-top: 8px;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
