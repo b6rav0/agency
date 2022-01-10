@@ -1,0 +1,19 @@
+section.success-container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    overflow: hidden;
+
+    div.text-content {
+        text-align: center;
+
+        h1 {
+            font-size: 36px;
+            color: $dark-blue;
+        }
+
+        button {
+            margin: 1em 0 0;
+        }
+    }
+}

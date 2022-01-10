@@ -688,5 +688,21 @@ section#subscribe form button#show-on-mobile {
     display: inline-block;
   }
 }
+section.success-container {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+section.success-container div.text-content {
+  text-align: center;
+}
+section.success-container div.text-content h1 {
+  font-size: 36px;
+  color: #11245A;
+}
+section.success-container div.text-content button {
+  margin: 1em 0 0;
+}
 
 /*# sourceMappingURL=main.css.map */
